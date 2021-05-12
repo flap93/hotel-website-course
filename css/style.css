@@ -91,6 +91,16 @@ p {
      clear: both;
  }
 
+ .l-heading {
+     font-size: 40px;
+ }
+
+ /* PADDING */
+
+.py-1{ padding: 10px 0; }
+.py-2{ padding: 20px 0; }
+.py-3{ padding: 30px 0; }
+
 /* NAVBAR */
 
 #navbar {
@@ -208,4 +218,29 @@ COLOUR OF THE LETTERS */
     background: #444;
     color: #fff;
     padding: 20px;
+}
+
+
+
+/* ABOUT STYLING  */
+
+
+#about-info .info-right {
+float: right;
+width: 50%;
+min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+
 }
